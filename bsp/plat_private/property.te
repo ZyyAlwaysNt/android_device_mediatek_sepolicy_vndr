@@ -1,0 +1,25 @@
+#=============allow atcid==============
+system_public_prop(ctl_atcid-daemon-u_prop)
+system_public_prop(ctl_atci_service_prop)
+system_public_prop(mtk_atci_sys_prop)
+
+#=============mtk aal property=============
+system_public_prop(mtk_aal_prop)
+
+#============allow permission control set property=========
+system_public_prop(mtk_permission_control_prop)
+
+#=============allow terserver to set terservice property==============
+system_public_prop(terservice_prop)
+
+#=============allow systemui to get ro.vendor.mtk_cta_set===============
+system_public_prop(mtk_cta_set_prop)
+
+#=============allow RSC===============
+system_public_prop(mtk_rsc_sys_prop)
+
+#=============allow to start/stop campostalgo property==============
+system_public_prop(ctl_campostalgo_prop)
+
+#=============allow netflix read property==============
+vendor_public_prop(netflix_bsp_rev_prop)
